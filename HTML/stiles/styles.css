@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background-color: #235347;
+}
+
+
+.encabezado{
+    background-color: #051f20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu{
+    background-color: #173834;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* Contenido de la pagina*/
+.contenido {
+    background-color: #8cb79b;
+    padding: 50px;
+    margin: 100px; 
+    border-radius: 15px;
+    
+}
+
+.contenido p {
+    font-size: 1.3rem;
+    line-height: 2.0;
+    margin-bottom: 20px;
+}
+
+.contenido li {
+    font-size: 1.5rem;
+}
+
+.titulo{
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+img{
+   
+    display: block;
+    margin: auto;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Pone un campo debajo del otro */
+    gap: 15px; /* Separa los elementos */
+}
+
+input, textarea {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.boton-envio {
+    background-color: #2d5a3f; /* Un verde oscuro para que resalte */
+    color: white;               /* Texto en blanco para que se lea bien */
+    padding: 12px 25px;        /* Tamaño del botón */
+    border: none;              /* Quita el borde aburrido por defecto */
+    border-radius: 8px;        /* Esquinas redondeadas como tu bloque principal */
+
+}
+
+.boton-envio:hover {
+    background-color: #1a3a2a; /* Se oscurece un poco al tocarlo */
+}
+
+/* Pie de la pagina*/
+.pie{
+    background-color: #051f20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

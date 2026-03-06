@@ -23,6 +23,7 @@ body{
     margin: 15px;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 /* Contenido de la pagina*/
 .contenido {
@@ -80,6 +81,22 @@ input, textarea {
 .boton-envio:hover {
     background-color: #1a3a2a; /* Se oscurece un poco al tocarlo */
 }
+=======
+/* Contenido de la pagina*/
+.contenido{
+
+    background-color: #8cb79b;
+    
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+.titulo{
+    text-align: center;
+}
+
+>>>>>>> eed78a0 (correciones)
 
 /* Pie de la pagina*/
 .pie{

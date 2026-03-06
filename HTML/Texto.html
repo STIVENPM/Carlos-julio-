@@ -18,6 +18,7 @@
         <a href="Texto.html">Texto</a>
         <a href="Imagenes.html">Multimedia</a>
         <a href="Formularios.html">Formularios</a>
+        <a href="Listas.html">Listas</a>
     </nav>
 
     <section class="contenido">
@@ -39,56 +40,55 @@
             navegador y el usuario distingan la intención detrás de cada fragmento como :
         </p>
         <ul>
-            <li>p:</li>
+            <li>&lt;p&gt;</li>
             <p>se usa para que agrupa bloques de texto con un espacio intrínseco.</p>
             
-            <li>em:</li>
+            <li>&lt;em&gt;</li>
             <p>para dar énfasis gramatical (cursiva).</p>
             
-            <li>br:</li>
+            <li>&lt;br&gt;</li>
             <p>Se usa para saltos de línea simples.</p>
 
         </ul>
 
-        <h2 >Listas</h2>
-        <p>
-            Las listas en HTML son elementos esenciales para organizar información de manera clara y jerárquica, permitiendo agrupar 
-            conceptos relacionados para mejorar la lectura.Existen principalmente dos tipos:
-        </p>
-
-        <h3>listas ordenadas:</h3>
-        <p>las listas ordenadas ol, que utilizan números o letras para indicar una secuencia o prioridad.</p>
-    
-        <h3>listas desordenadas:</h3>
-        <p>las listas desordenadas ul, que emplean viñetas (puntos) cuando el orden de los factores no altera el sentido del contenido.</p>
-    
-        <p>
-            Cada elemento individual dentro de estas listas se define con la etiqueta li (list item), lo que garantiza que los navegadores y 
-            lectores de pantalla interpreten correctamentela relación entre los datos, transformando párrafos densos en esquemas visualmente 
-            ligeros y fáciles de escanear.
-        </p>
-
         <h2>Enlaces</h2>
         <h3>Tipos de enlaces:</h3>
         <p>
-            Los enlaces en HTML (a) conectan recursos mediante el atributo href, dividiéndose principalmente en internos (mismo sitio), 
+            Los enlaces en HTML &lt;a&gt; conectan recursos mediante el atributo href, dividiéndose principalmente en internos (mismo sitio), 
             externos (sitios terceros), 
             y anclas (posiciones dentro de una misma página)
         </p>
 
         <h3>Enlace Externo:</h3>
         <p>Es un enlace que lleva a otra página web diferente (otro sitio de internet) ejemplo: </p>
-        <a href="https://www.google.com">Ir a Google</a>
+        <div class="ejemplo">
+            <a href="https://www.google.com">Ir a Google</a>
+        </div>
+
+        <h3>Sintaxis: </h3>
+        <div class="ejemplo">
+            &lt;a href="enlace"&gt;
+        </div>
 
         <h3>Enlace Interno:</h3>
         <p>Es un enlace que lleva a otra página dentro del mismo proyecto ejemplo: </p>
-        <a href="index.html">Ir a Inicio</a> 
-        <br>
-        <br>
-        <a href="Estructurales.html">Ir a Estructurales</a>
+        <div class="ejemplo">
+            <a href="index.html">Ir a Inicio</a> 
+        </div>
 
-        <h3>Enlace de Ancla:</h3>
-        <p>Sirve para ir a una parte específica de la misma página.</p>
+        <h3>Sintaxis: </h3>
+        <div class="ejemplo">
+            &lt;a href="index.html"&gt;
+        </div>
+
+        <h3>Insertar un sitio web: </h3>
+        <iframe src="https://www.wikipedia.org" width="100%" height="500px" title="Descripción del sitio">
+        </iframe>
+
+        <h3>Sintaxis: </h3>
+        <div class="ejemplo">
+            &lt;iframe href="enlace"&gt;
+        </div>
     </section>
 
     <footer class="pie">

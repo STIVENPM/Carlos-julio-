@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,64 +22,90 @@
     </nav>
 
     <section class="contenido">
-        <h2 class="titulo">¿cual es la estructuras en HTML?</h2>
+
+        <h2 class="titulo">¿Cuál es la estructura en HTML?</h2>
+
         <p>
-            La estructura de un documento HTML se basa en una jerarquía de etiquetas que organiza el contenido en dos secciones fundamentales
-            contenidas dentro de la etiqueta raíz head.La primera es el head, que funciona como el cerebro del documento almacenando metadatos, 
-            configuraciones de caracteres, el título de la pestaña y enlaces a recursos externos que no son visibles para el usuario. La segunda 
-            es el body, que constituye el cuerpo visible de la página y donde se declaran todos los elementos estructurales como encabezados, párrafos, 
-            imágenes e hipervínculos. Esta arquitectura, encabezada siempre por la declaración !DOCTYPE html, garantiza que el navegador interprete correctamente 
-            la semántica y el propósito de cada componente de la interfaz.
+            La estructura de un documento HTML se basa en una jerarquía de etiquetas que organiza el contenido 
+            en dos secciones fundamentales dentro de la etiqueta raíz <strong>html</strong>. 
+            La primera es el <strong>head</strong>, que funciona como el cerebro del documento almacenando 
+            metadatos, configuraciones de caracteres, el título de la pestaña y enlaces a recursos externos 
+            que no son visibles para el usuario. 
         </p>
 
-        <h2>Tipos de estructuras</h2>  
-        <p>Sirven para organizar la estructura de la página web estas se diveden en dos partes : </p>
+        <p>
+            La segunda es el <strong>body</strong>, que constituye el cuerpo visible de la página y donde 
+            se declaran todos los elementos estructurales como encabezados, párrafos, imágenes e hipervínculos. 
+            Esta arquitectura, encabezada siempre por la declaración <strong>!DOCTYPE html</strong>, garantiza 
+            que el navegador interprete correctamente la estructura del documento.
+        </p>
+
+        <h2>Tipos de estructuras</h2>
+
+        <p>
+            Estas etiquetas sirven para organizar la estructura de una página web y se dividen en dos partes:
+        </p>
 
         <h3>Estructuras de configuración (El contenedor)</h3>
+
         <ul>
-            
-            <li>html:</li>
-            <p>
-                Es la etiqueta raíz o "padre" de todo el documento. Representa el inicio y el fin de la página web. Todo lo que escribas debe estar dentro de esta etiqueta.
-            </p>
-            <li>head: </li>
-            <p>
-                Es la sección de configuración. Aquí se guarda la información "invisible" para el usuario, como el título que aparece en la pestaña del navegador, los enlaces a archivos
-                CSS o las palabras clave para Google.
-            </p>
+            <li>
+                <strong>html:</strong>  
+                Es la etiqueta raíz de todo el documento. Representa el inicio y el final de la página web. 
+                Todo el contenido del documento debe estar dentro de esta etiqueta.
+            </li>
+
+            <li>
+                <strong>head:</strong>  
+                Es la sección de configuración del documento. Aquí se guarda información que no es visible 
+                directamente para el usuario, como el título de la página, enlaces a archivos CSS o metadatos.
+            </li>
         </ul>
 
         <h3>Estructuras de contenido y diseño (Lo visible)</h3>
+
         <ul>
-            <li>body: </li>
-            <p>
-                Es el cuerpo de la página. Todo lo que pongas aquí (textos, imágenes, botones) es lo que el usuario final verá y con lo que podrá interactuar en su pantalla.
-            </p>
-            <li>nav: </li>
-            <p>
-                Se utiliza específicamente para bloques que contienen enlaces de navegación (menús). Ayuda a los lectores de pantalla para personas con discapacidad visual 
-                a identificar dónde está el menú principal.
-            </p>
-            <li>section: </li>
-            <p>
-                Define una sección genérica dentro del documento. Se usa para agrupar contenido relacionado (por ejemplo: una sección de "Servicios", otra de "Testimonios" 
-                o una de "Contacto").
-            </p>
-            <li>footer: </li>
-            <p>
-                Es el pie de página. Se ubica al final del documento y suele contener información de copyright, enlaces a redes sociales, políticas de privacidad o datos de contacto.
-            </p>
+
+            <li>
+                <strong>body:</strong>  
+                Es el cuerpo de la página web. Todo lo que pongas dentro de esta etiqueta es lo que el usuario 
+                verá en el navegador, como textos, imágenes, botones o enlaces.
+            </li>
+
+            <li>
+                <strong>nav:</strong>  
+                Se utiliza para definir bloques de navegación. Normalmente contiene menús con enlaces que 
+                permiten moverse entre las diferentes páginas del sitio web.
+            </li>
+
+            <li>
+                <strong>section:</strong>  
+                Define una sección dentro del documento. Se utiliza para agrupar contenido relacionado 
+                como secciones de servicios, información o contenido principal.
+            </li>
+
+            <li>
+                <strong>footer:</strong>  
+                Es el pie de página del sitio web. Generalmente contiene información adicional como 
+                derechos de autor, enlaces a redes sociales o información de contacto.
+            </li>
+
         </ul>
 
-        <h2>Estrcutura de HTML</h2>
-        <img src="https://recursivos.com/images/html/estructura-HTML5.png">
-        
+        <h2>Estructura básica de HTML</h2>
+
+        <img src="https://recursivos.com/images/html/estructura-HTML5.png" 
+             alt="Estructura básica de un documento HTML">
+
     </section>
 
     <footer class="pie">
-        <p> Proyecto educativo</p>
+        <p>Proyecto educativo</p>
         <p>Santiago Gordo Perez</p>
         <p>Jose Stiven Perdomo Martinez</p>
     </footer>
+
+    <script src="js/ejemplo.js"></script>
+
 </body>
 </html>
